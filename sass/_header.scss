@@ -1,2 +1,62 @@
-@import 'proxima-nova'
+.intro {
+		position: absolute;
+		justify-content: flex-start;
+		top:20px;
+		left:20px;
+		size: 100%;
+	}
+
+header{
+	background: linear-gradient(rgba(12,180,206, 0.5), rgba(16,128,208, 0.8)), 
+	url(resources/background.jpg) no-repeat center;
+    background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+
+
+
+	h2{color: #fff;
+		font-family: 'Droid Serif';
+		align-content: center;
+		font-size: 40px;
+		align-items:center;
+		padding-top: 200px;
+		max-width: 1000px;
+		text-align: center;
+	}
+
+
+}
+
+.header__boton{
+	display: flex;
+	border: 2px solid;
+	border-color: #fff;
+	border-radius: 25%;
+	background-color: transparent;
+	width: 250px;
+	height: 50px;
+	align-content:center;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+
+}
+
+h5{}
+
+.menu-abajo {
+	list-style: none;
+	position: absolute;
+	display: inline-block;
+	color: #fff;
+	left: 20px;
+	bottom: 100px;
+
+
+}
+
+	
 
