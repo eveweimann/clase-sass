@@ -81,7 +81,9 @@ header {
   height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative;
+  list-style: none; }
   header h2 {
     color: #fff;
     font-family: 'Droid Serif';
@@ -96,7 +98,7 @@ header {
   display: flex;
   border: 2px solid;
   border-color: #fff;
-  border-radius: 25%;
+  border-radius: 60px;
   background-color: transparent;
   width: 250px;
   height: 50px;
@@ -105,13 +107,16 @@ header {
   align-items: center;
   text-align: center; }
 
-.menu-abajo {
-  list-style: none;
+header nav ul {
   position: absolute;
-  display: inline-block;
   color: #fff;
   left: 20px;
-  bottom: 100px; }
+  bottom: 100px;
+  list-style: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
+  header nav ul li {
+    display: inline-block; }
 
 section {
   background-color: #fff;
@@ -126,13 +131,13 @@ section {
   align-items: center;
   width: 200px;
   height: 50px;
-  border-radius: 20%;
+  border-radius: 60px;
   background-color: #0cb4ce; }
 
 a {
   text-decoration: none;
   color: white;
-  font-family: 'Proxima-Nova', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   font-weight: lighter; }
 
 /*# sourceMappingURL=main.css.map */
